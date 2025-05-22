@@ -1,46 +1,39 @@
-# Getting Started with Create React App
+# <div align="center">Marvel Heroes Explorer <img src="https://raw.githubusercontent.com/roquicelmo/marvel-heroes-explorer/main/public/marvel-icon.png" width="30"></div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
+  <img src="https://img.shields.io/badge/Next.js-13+-black?logo=next.js" alt="Next.js Version">
+  <img src="https://img.shields.io/badge/React-18-blue?logo=react" alt="React Version">
+  <img src="https://img.shields.io/badge/License-MIT-green" alt="License">
+</div>
 
-## Available Scripts
+<br>
 
-In the project directory, you can run:
+<div align="center">
+  <img src="https://raw.githubusercontent.com/roquicelmo/marvel-heroes-explorer/main/public/screenshot.png" width="800" alt="App Screenshot">
+</div>
 
-### `npm start`
+## ✨ Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+| Funcionalidade       | Descrição                                                                 |
+|----------------------|---------------------------------------------------------------------------|
+| 🔍 Busca Avançada    | Filtre heróis por nome                                                   |
+| ⭐ Favoritos         | Armazena localmente seus personagens favoritos                           |
+| 📱 Responsivo        | Design adaptável para todos os dispositivos                               |
+| 📊 Paginação         | Navegação intuitiva entre páginas de resultados                          |
+| 🎨 Detalhes Completos| Visualização detalhada com comics, séries e histórias                    |
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 🚀 Quick Start
 
-### `npm test`
+```bash
+# Clone o repositório
+git clone https://github.com/roquicelmo/marvel-heroes-explorer.git
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Instale as dependências
+npm install
 
-### `npm run build`
+# Configure as chaves da API Marvel
+echo "NEXT_PUBLIC_MARVEL_PUBLIC_KEY=sua_chave_publica" > .env.local
+echo "NEXT_PUBLIC_MARVEL_PRIVATE_KEY=sua_chave_privada" >> .env.local
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Inicie o servidor
+npm run dev
