@@ -1,7 +1,7 @@
 # <div align="center">Marvel Heroes Explorer <img src="https://raw.githubusercontent.com/roquicelmo/marvel-heroes-explorer/main/public/marvel-icon.png" width="30"></div>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Next.js-13+-black?logo=next.js" alt="Next.js Version">
+  <img src="https://img.shields.io/badge/Next.js-13+-black?logo=next.js" width="24" alt="Next.js Version">
   <img src="https://img.shields.io/badge/React-18-blue?logo=react" alt="React Version">
   <img src="https://img.shields.io/badge/License-MIT-green" alt="License">
 </div>
